@@ -2,10 +2,12 @@ import React from 'react';
 
 import './NavigationItem.css'
 
-const NavigationItem = ({label, section}) => {
+const NavigationItem = ({label, section, handleClick}) => {
 
     return(
-        <li><a href={`/${section}`}>{label}</a></li>
+        <li className='App-navbar-item'>
+            <a href={`/${section}`} onClick={handleClick(section)}><span id={`label-${section}`}>{label}</span></a>
+        </li>
     )
 
 }

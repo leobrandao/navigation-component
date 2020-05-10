@@ -1,3 +1,5 @@
+/* Reset CSS */
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v5.0.1 | 20191019
    License: none (public domain)
@@ -49,4 +51,13 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/* Custom CSS */
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
 }
