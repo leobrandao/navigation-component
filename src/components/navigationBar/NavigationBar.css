@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-width: 1000px;
     margin-top: 100px;
 }
 
@@ -30,3 +29,9 @@
 .App-navbar-underline.resizing {
     transition: none;
 }
+
+@media (max-width: 1024px) { 
+    .App-navbar {
+        min-width: 1000px;
+    }
+ }
