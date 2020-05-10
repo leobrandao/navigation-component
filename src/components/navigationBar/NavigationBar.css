@@ -11,6 +11,7 @@
     padding: 0 50px;
     margin: 0;
     border-bottom: 1px #d2d2d7 solid;
+    overflow-x: auto;
 }
 
 .App-navbar-underline-container {
@@ -24,4 +25,8 @@
     height: 1px;
     position: relative;
     transition: all 0.3s
+}
+
+.App-navbar-underline.resizing {
+    transition: none;
 }

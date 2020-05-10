@@ -10,5 +10,10 @@
 }
 
 .App-navbar-item a:hover {
-    color: #06c
+    color: #06c;
+}
+
+.App-navbar-item a.selected:hover {
+    color: #1d1d1f;
+    cursor: default;
 }
