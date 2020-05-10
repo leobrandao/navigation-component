@@ -1,19 +1,19 @@
 .App-navbar-item a {
-    text-decoration: none;
-    color: #86868b;
-    display: block;
-    padding: 10px 30px;
+  text-decoration: none;
+  color: #86868b;
+  display: block;
+  padding: 10px 30px;
 }
 
 .App-navbar-item a.selected {
-    color: #1d1d1f;
+  color: #1d1d1f;
 }
 
 .App-navbar-item a:hover {
-    color: #06c;
+  color: #06c;
 }
 
 .App-navbar-item a.selected:hover {
-    color: #1d1d1f;
-    cursor: default;
+  color: #1d1d1f;
+  cursor: default;
 }

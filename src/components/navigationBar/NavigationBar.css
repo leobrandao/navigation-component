@@ -1,37 +1,37 @@
 .App-navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
 }
 
 .App-navbar-container {
-    display: flex;
-    padding: 0 50px;
-    margin: 0;
-    border-bottom: 1px #d2d2d7 solid;
+  display: flex;
+  padding: 0 50px;
+  margin: 0;
+  border-bottom: 1px #d2d2d7 solid;
 }
 
 .App-navbar-underline-container {
-    width: 100%;
+  width: 100%;
 }
 
 .App-navbar-underline {
-    display: flex;
-    background-color: #1d1d1f;
-    top: -1px;
-    height: 1px;
-    position: relative;
-    transition: all 0.3s
+  display: flex;
+  background-color: #1d1d1f;
+  top: -1px;
+  height: 1px;
+  position: relative;
+  transition: all 0.3s;
 }
 
 .App-navbar-underline.resizing {
-    transition: none;
+  transition: none;
 }
 
-@media (max-width: 1024px) { 
-    .App-navbar {
-        min-width: 1000px;
-    }
- }
+@media (max-width: 1024px) {
+  .App-navbar {
+    min-width: 1000px;
+  }
+}
