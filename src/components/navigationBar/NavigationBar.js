@@ -15,7 +15,7 @@ class NavigationBar extends Component {
                 left: 0,
                 width: 0
             },
-            selectedItem: {},
+            selectedItem: null,
             selectedCity: '',
             resizing: false
         };
@@ -58,7 +58,7 @@ class NavigationBar extends Component {
             })
         }
         const slideBar = this.state.selectedItem;
-        !!slideBar && this.setSlidePosition( slideBar )
+        slideBar && this.setSlidePosition( slideBar )
         this.enableTransition();
     }
 

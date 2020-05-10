@@ -1,8 +1,9 @@
 .App-navbar {
     display: flex;
-    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    min-width: 1000px;
     margin-top: 100px;
 }
 
@@ -11,7 +12,6 @@
     padding: 0 50px;
     margin: 0;
     border-bottom: 1px #d2d2d7 solid;
-    overflow-x: auto;
 }
 
 .App-navbar-underline-container {
